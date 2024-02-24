@@ -6,7 +6,6 @@
 
 bool checkPrime(uint64_t value) {
   if ((1 == val) || (0 == val)) return false;
-  if (2 == val) return true;
   for (int i = 2; i * i <= val; i++) {
       if (0 == val % i) return false;
   }
